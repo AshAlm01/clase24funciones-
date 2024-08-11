@@ -1,0 +1,7 @@
+x = 10 # variable global 
+
+def mi_funcion():
+
+    print (f"variable local x dentro de la funcion: {x}")
+mi_funcion ()
+print(f"variable local x fuera de la funcion: {x}")
